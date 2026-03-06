@@ -39,9 +39,44 @@ let quadrado2 = {
     },
 };
 
-
+console.log(quadrado.perimetro(5))
 
 
 
 let quadrado3 = [{}];
+
+
+
+
+/* 01 - criar um objeto seai
+02- acessar os dados da chave
+03 - incrementar dados/alterar o objeto
+04- excluir um valor do objeto*/
+
+
+const senai = {
+    codigo: 603,
+    cidade: 'Araraquara'
+
+
+};
+
+
+console.log('-----------------------');
+
+senai.telefone = 1633035252;
+senai.rua ='Hugo Negrini';
+senai.telefone = 1723158968;
+delete senai.rua;
+
+
+senai.endereco = {rua: 'Hugo Negrini', bairro: 'Quitandinha', numero: 60}
+senai.alunos = ['SESI', 'EEBA', 'comunidade']
+
+senai.endereco.numero = 62;
+senai.alunos[2] = 'tecnico';
+
+
+console.log(senai); 
+
 
